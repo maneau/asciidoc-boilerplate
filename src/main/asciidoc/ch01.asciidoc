@@ -1,0 +1,56 @@
+[[Geneses]]
+== Geneses
+
+This is the introduction of the chapter Geneses.
+
+=== System Requirements
+
+.System requirements
+
+This is table :
+
+|===============
+| Column 1 | Column 2 | Column 3
+|Value 1| this is a long value for 2| Value 3
+|Value 1| this is a long value for 2| this is a long value for 3
+|===============
+
+=== Including source code
+
+To include some source code use this example :
+
+.Maven artifact identifier for AsciiDoc-boilerplate
+====
+[source, XML]
+[subs="verbatim,attributes"]
+----
+<dependency>
+   <groupId>org.maneau</groupId>
+   <artifactId>asciidoc-boilerplate</artifactId>
+   <version>1.0</version>
+</dependency>
+----
+====
+
+For java source use :
+
+.Example of java source
+====
+[source, JAVA]
+----
+...
+/**
+ * Testing escaped chars
+ *
+ * @throws Exception
+ */
+@Test
+public void testEscapedCars() throws Exception {
+    assertEquals("term1:(value1)", SyntaxBuilder.builder().term("term1", "value1").check().soutPrint().toString());
+    assertEquals("term1:(value\\+)", SyntaxBuilder.builder().term("term1", "value+").check().soutPrint().toString());
+    assertEquals("term1:(value \\{)", SyntaxBuilder.builder().term("term1", "value {").check().soutPrint().toString());
+    assertEquals("term1:(value \\(\\)\\{\\}\\-\\!\\+\\?)", SyntaxBuilder.builder().term("term1", "value (){}-!+?").check().soutPrint().toString());
+    assertEquals("term1:(\"value \\(\\)\\{\\}\\-\\!\\+\\?\")", SyntaxBuilder.builder().exactTerm("term1", "value (){}-!+?").check().soutPrint().toString());
+}
+----
+====

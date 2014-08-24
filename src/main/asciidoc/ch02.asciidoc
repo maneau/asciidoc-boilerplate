@@ -1,0 +1,72 @@
+[[link-and-images]]
+== Links and Images
+
+=== Links
+
+This is a link to the next image (see <<images>>).
+
+=== Tips and notes :
+
+[TIP]
+====
+It is recommended - for both your database and Hibernate Search - to execute your operations in a transaction, be it JDBC or JTA.
+====
+
+[NOTE]
+====
+Hibernate Search works perfectly fine in the Hibernate / EntityManager long conversation
+pattern aka. atomic conversation.
+====
+
+
+=== Some text
+Post quorum necem nihilo lenius ferociens Gallus ut leo cadaveribus pastus multa huius modi scrutabatur. quae singula narrare non refert, me professione modum, quod evitandum est, excedamus.
+
+==== +a sub part+
+
+Principium autem unde latius se funditabat, emersit ex negotio tali. Chilo ex vicario et coniux eius Maxima nomine, questi apud Olybrium ea tempestate urbi praefectum, vitamque suam venenis petitam adseverantes inpetrarunt ut hi, quos suspectati sunt, ilico rapti conpingerentur in vincula, organarius Sericus et Asbolius palaestrita et aruspex Campensis.
+
+==== +another+
+
+Excitavit hic ardor milites per municipia plurima, quae isdem conterminant, dispositos et castella, sed quisque serpentes latius pro viribus repellere moliens, nunc globis confertos, aliquotiens et dispersos multitudine superabatur ingenti, quae nata et educata inter editos recurvosque ambitus montium eos ut loca plana persultat et mollia, missilibus obvios eminus lacessens et ululatu truci perterrens.
+
+==== +just more text+
+
+Soleo saepe ante oculos ponere, idque libenter crebris usurpare sermonibus, omnis nostrorum imperatorum, omnis exterarum gentium potentissimorumque populorum, omnis clarissimorum regum res gestas, cum tuis nec contentionum magnitudine nec numero proeliorum nec varietate regionum nec celeritate conficiendi nec dissimilitudine bellorum posse conferri; nec vero disiunctissimas terras citius passibus cuiusquam potuisse peragrari, quam tuis non dicam cursibus, sed victoriis lustratae sunt.
+
+==== +again+
+
+Haec igitur lex in amicitia sanciatur, ut neque rogemus res turpes nec faciamus rogati. Turpis enim excusatio est et minime accipienda cum in ceteris peccatis, tum si quis contra rem publicam se amici causa fecisse fateatur. Etenim eo loco, Fanni et Scaevola, locati sumus ut nos longe prospicere oporteat futuros casus rei publicae. Deflexit iam aliquantum de spatio curriculoque consuetudo maiorum.
+
+[[images]]
+
+=== Images
+
+The image :
+
+image::asciidoc.png[This is the image tag]
+
+=== Custom a table
+
+[[Custom-a-table]]
+.The table customing
+[cols="2*", options="header"]
+|===============
+|Name and description
+|Properties
+
+|Memory based directory.
+|none
+
+|File system based directory.
+|0Go
+|===============
+
+=== Warning
+
+[WARNING]
+====
+You can do some warning using the tag 'WARNING'
+====
+
+

@@ -1,0 +1,13 @@
+[[preface]]
+
+[preface]
+== Preface
+
+This is the introduction.
+Nothing very notable here.
+You can use a sentence in order to easily versioning it.
+
+You can find this project on link:$$https://github.com.org/maneau/asciidoc-boilerplate$$[GitHub]
+
+
+
